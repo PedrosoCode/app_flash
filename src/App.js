@@ -14,7 +14,7 @@ function App() {
           <Nav.Link href="/about">About</Nav.Link>
         </Nav>
       </Navbar>
-      <Container>
+      <Container fluid style={{ padding: 0 }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
